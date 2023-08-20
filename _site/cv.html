@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head><script>
+  rudderanalytics = window.rudderanalytics = [];
+  var methods = [
+    "load",
+    "page",
+    "track",
+    "identify",
+    "alias",
+    "group",
+    "ready",
+    "reset",
+    "setAnonymousId",
+    "getAnonymousId",
+  ];
+  for (var i = 0; i < methods.length; i++) {
+    var method = methods[i];
+    rudderanalytics[method] = (function (methodName) {
+      return function () {
+        rudderanalytics.push(
+          [methodName].concat(Array.prototype.slice.call(arguments))
+        );
+      };
+    })(method);
+  }
+  rudderanalytics.load(
+    "YOUR_WRITE_KEY",
+    "DTA_PLANE_URL"
+  );
+  rudderanalytics.ready(function () {
+    console.log("Application is ready with JS");
+  });
+  rudderanalytics.track("Simple track call1");
+</script>
+<script src="https://cdn.rudderlabs.com/v1/rudder-analytics.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>CV | Janet's Homepage</title>
+  <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+  <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H04QJRR1XQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H04QJRR1XQ');
+</script>
+
+</head>
+
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">Janet's Homepage</span>
+    </a>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span></span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    
+      <a class="me-3 py-2 text-decoration-none" href="/cv">CV</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/contact">Contact</a>
+    
+  </nav>
+</header>
+
+      
+
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">CV (<a href="assets/Janet Zhang Resume.pdf">full version</a>)</h3>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Experience</h4>
+      </div>
+      <div class="col-md-10">
+        
+          <p class="fw-bold">Graduate Researcher @ Meta and North Carolina State University</p>
+          <p>Automated human-decision based reconciliation strategy with robust theoretical guarantee for short-term and long- term budget planning, reducing the time of each planning from weeks to hours for the Meta Infrastructure team, <b>09/2022 - Current</b></p>
+        
+          <p class="fw-bold">Research Data Scientist Intern @ Meta</p>
+          <p>Designed and implemented Python API to streamline the sensitivity analysis of capacity planning, integrating time series, ML, backtesting, and SQL, slashing industrial-level analysis development time by up to several weeks, <b>05/2022 - 08/2022</b></p>
+        
+          <p class="fw-bold">Graduate Researcher @ National Wildlife Health Center (NWHC) and University of Wisconsin-Madison</p>
+          <p>Collaborated with NWHC’s quantitative ecologist to estimate the abundance of white-tailed deer and developed advanced mark and recapture models (Lincoln–Petersen / Chapman, MARK, Bayesian inference), <b>01/2019 - 05/2019</b></p>
+        
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Education</h4>
+      </div>
+      <div class="col-md-10">
+        
+          <p class="fw-bold">Ph.D. candidate</p>
+          <p>Department of Statistics, North Carolina University, 2019 - Current</p>
+        
+          <p class="fw-bold">M.S. in Statistics</p>
+          <p>University of Wisconsin-Madison, 2017 - 2019</p>
+        
+          <p class="fw-bold">B.S. in Statistics</p>
+          <p>Nankai University, 2014 - 2017</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+      <footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      
+        <a href="https://github.com/xinyuz1996" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+      
+        <a href="https://www.linkedin.com/in/xinyuzhangncsu" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
+      
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

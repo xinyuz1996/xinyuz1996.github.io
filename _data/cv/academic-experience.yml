@@ -1,0 +1,13 @@
+- title: 'Graduate Researcher @ Meta and North Carolina State University'
+  description:
+    'Automated human-decision based reconciliation strategy with robust theoretical guarantee for short-term and long-
+     term budget planning, reducing the time of each planning from weeks to hours for the Meta Infrastructure team, <b>09/2022 - Current</b>'
+
+- title: 'Research Data Scientist Intern @ Meta'
+  description:
+    'Designed and implemented Python API to streamline the sensitivity analysis of capacity planning, integrating time
+     series, ML, backtesting, and SQL, slashing industrial-level analysis development time by up to several weeks, <b>05/2022 - 08/2022</b>'
+
+- title: 'Graduate Researcher @ National Wildlife Health Center (NWHC) and University of Wisconsin-Madison'
+  description:
+    'Collaborated with NWHC’s quantitative ecologist to estimate the abundance of white-tailed deer and developed advanced mark and recapture models (Lincoln–Petersen / Chapman, MARK, Bayesian inference), <b>01/2019 - 05/2019</b>'

@@ -1,0 +1,6 @@
+url: "https://xinyuz1996.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Janet's Homepage" # the name of your site, e.g. ACME Corp.
+description: ""
+theme: minima
+# google_analytics: G-H04QJRR1XQ

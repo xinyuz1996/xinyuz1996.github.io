@@ -1,0 +1,24 @@
+menu:
+# - {name: 'people', url: '/people'}
+# - {name: 'Publications', url: '/publications'}
+# - {name: 'courses', url: '/courses'}
+- {name: 'CV', url: '/cv'}
+- {name: 'Contact', url: '/contact'}
+
+people:
+- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
+- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+
+courses:
+- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+- {name: 'Stellar Structures', url: 'stellar-structures'}
+
+social:
+- {icon: 'github', link: 'https://github.com/xinyuz1996'}
+#- {icon: 'twitter', link: 'https://twitter.com/YilongJu'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/xinyuzhangncsu'}
+
+contacts:
+- {name: 'Xinyu Zhang', title: 'Ph.D. Candidate', department: 'Department of Statistics', institution: 'North Carolina State University', institution_address: '2311 Stinson Drive, 5109 SAS Hall, Campus Box 8203, Raleigh, NC 27695', phone: '(608)5040767', email: 'xinyu_zhang@nscu.edu'}

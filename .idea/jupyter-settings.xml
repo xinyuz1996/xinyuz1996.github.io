@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="6440689d16ea3c3440eda7a1fc0c9e5435d3570a1729e078" />
+          <option name="urlString" value="http://127.0.0.1:8888" />
+          <authParams2>
+            <map>
+              <entry key="token" value="6440689d16ea3c3440eda7a1fc0c9e5435d3570a1729e078" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="urlString" value="http://localhost:8888" />
+          <authParams2>
+            <map />
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="d5dc49f427fc9cdf91581ad8ab82317db7d281e22489899f" />
+          <option name="urlString" value="http://localhost:8890" />
+          <authParams2>
+            <map>
+              <entry key="token" value="d5dc49f427fc9cdf91581ad8ab82317db7d281e22489899f" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
+    <option name="moduleParameters">
+      <map>
+        <entry key="$USER_HOME$/Dropbox/Study/GitHub/GAN-Training-Dynamics-II/.idea/Implicit-Competitive-Regularization_ICML2020.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="aab8e15e0162b7032a14a60dd611a8148c4d41692f1dbf14" />
+              <option name="urlString" value="http://localhost:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="aab8e15e0162b7032a14a60dd611a8148c4d41692f1dbf14" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Dropbox/Study/GitHub/Misc/.idea/Misc.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="urlString" value="http://localhost:8888" />
+              <authParams2>
+                <map />
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../JET-Detection/.idea/JET-Detection.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="6440689d16ea3c3440eda7a1fc0c9e5435d3570a1729e078" />
+              <option name="urlString" value="http://127.0.0.1:8888" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="6440689d16ea3c3440eda7a1fc0c9e5435d3570a1729e078" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SERSClassification/.idea/SERSClassification.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="b4033d8052ff848ded08a74b60298aefb0d7f75f1307c485" />
+              <option name="urlString" value="http://127.0.0.1:8888" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="b4033d8052ff848ded08a74b60298aefb0d7f75f1307c485" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
