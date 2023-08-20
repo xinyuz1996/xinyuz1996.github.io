@@ -3,11 +3,20 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Awards</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.awards.featured %}
-        <p>{{ item.title }} {{ item.venue }}</p>
+        {% if item.url != "" %}
+          <p><a href="{{ item.url }}">{{ item.title }}</a> {{ item.venue }}</p>
+        {% else %}
+          <p>{{ item.title }} {{ item.venue }}</p>
+        {% endif %}
+<!--        <p><a href="{{ item.url }}">{{ item.title }}</a> {{ item.venue }}</p>-->
       {% endfor %}
     {% else %}
       {% for item in site.data.awards.index %}
-        <p>{{ item.name }} <a href="{{ item.url }}">{{ item.title }}</a> {{ item.venue }}</p>
+        {% if item.url != "" %}
+          <p>{{ item.name }} <a href="{{ item.url }}">{{ item.title }}</a> {{ item.venue }}</p>
+        {% else %}
+          <p>{{ item.name }} {{ item.title }} {{ item.venue }}</p>
+        {% endif %}
       {% endfor %}
     {% endif %}
   </div>
